@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btnObj"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_objective"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDur"
+        app:layout_constraintEnd_toEndOf="@+id/btnDur"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnDur"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btnDur"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_duration"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnTrans"
+        app:layout_constraintEnd_toEndOf="@+id/btnTrans"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btnTrans"
+        app:layout_constraintTop_toBottomOf="@+id/btnObj" />
+
+    <Button
+        android:id="@+id/btnTrans"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_transport"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnBud"
+        app:layout_constraintEnd_toEndOf="@+id/btnBud"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnBud"
+        app:layout_constraintTop_toBottomOf="@+id/btnDur" />
+
+    <Button
+        android:id="@+id/btnBud"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/btn_budget"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnUplImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTrans" />
+
+    <Button
+        android:id="@+id/btnUplImg"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/upload_itinery"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Btn_fav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBud" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="3dp"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btn_fav"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:text="@string/favourites"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUplImg" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/trip" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="382dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.3"
+        app:srcCompat="@drawable/find" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

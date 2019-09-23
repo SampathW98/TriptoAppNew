@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Tripto App</string>
+    <!-- login and register -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register">"Register"</string>
+    <string name="or_register">"Or Register"</string>
+    <string name="fname">"First Name"</string>
+    <string name="lname">"Last Name"</string>
+    <string name="phone">"Phone Number"</string>
+    <!-- home page -->
+    <string name="btn_objective">"Trip By Objective"</string>
+    <string name="btn_duration">"Trip By Duration"</string>
+    <string name="btn_transport">"Trip By Transportation Mode"</string>
+    <string name="btn_budget">"Trip By Budget"</string>
+    <string name="upload_itinery">"Upload Your Itinerary"</string>
+    <string name="favourites">"Favourites"</string>
+    <!-- upload page -->
+    <string name="title">"Enter a title for Itinerary"</string>
+    <string name="destination">"Enter destination"</string>
+    <string name="type">"Enter type of travel"</string>
+    <string name="duration">"Enter duration in days"</string>
+    <string name="transport">"Enter main transportation mode"</string>
+    <string name="budget">"Enter budget per person in (Rs.)"</string>
+    <string name="description">"Further description"</string>
+    <string name="upload">"Upload Image"</string>
+    <string name="save">"Save"</string>
+    <string name="show">"Show"</string>
+    <string name="update">"Update"</string>
+    <string name="delete">"Delete"</string>
+    <string name="objective">"Objective"</string>
+    <!-- details page -->
+    <string name="back">"Back"</string>
+    <string name="download">"Download"</string>
+    <!-- budget page -->
+    <string name="range1">"Below (Rs) 1000"</string>
+    <string name="rang2">"Between (Rs) 1000-5000"</string>
+    <string name="range3">"Above (Rs) 5000"</string>
+    <string name="view_more">"View More"</string>
+    <!-- transportation page -->
+    <string name="transport1">"By Foot"</string>
+    <string name="transport2">"By Vehicle"</string>
+    <string name="transport3">"By Plane"</string>
+    <!-- duration page -->
+    <string name="duration1">"One day trip"</string>
+    <string name="duration2">"Two day trip"</string>
+    <string name="duration3">"Tours of several days"</string>
+    <!-- objective page -->
+    <string name="objective1">"Adventure"</string>
+    <string name="objective2">"Tours"</string>
+    <string name="objective3">"Visits"</string>
+</resources>

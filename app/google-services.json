@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "285350089900",
+    "firebase_url": "https://triptoapp-8969a.firebaseio.com",
+    "project_id": "triptoapp-8969a",
+    "storage_bucket": "triptoapp-8969a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285350089900:android:1ec6a1b434bda1cf55fb09",
+        "android_client_info": {
+          "package_name": "com.odara.triptoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285350089900-oce7jo76870jqtnsnjcvjs46kbulbfd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odara.triptoapp",
+            "certificate_hash": "36346685df04568b2444d5796a648720f89903d7"
+          }
+        },
+        {
+          "client_id": "285350089900-sesd4hgnkhjbbli8lq1h799vitc3p6tc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.odara.triptoapp",
+            "certificate_hash": "e8ccc1cf202347df07701b9b8b80930fd82873a7"
+          }
+        },
+        {
+          "client_id": "285350089900-ss1gldsmccm6bfjmoa7ibi9iin4o69ub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQg_TmRM2Ky74LLJ52cOnyLo04sqw2H0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285350089900-ss1gldsmccm6bfjmoa7ibi9iin4o69ub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
