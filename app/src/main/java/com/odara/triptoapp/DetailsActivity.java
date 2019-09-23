@@ -20,7 +20,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class DetailsActivity extends AppCompatActivity {
+public class  DetailsActivity extends AppCompatActivity {
 
     TextView tv1,tv2,tv3,tv4,tv5,tv6,tv7;
     ToggleButton btnFavourite;
